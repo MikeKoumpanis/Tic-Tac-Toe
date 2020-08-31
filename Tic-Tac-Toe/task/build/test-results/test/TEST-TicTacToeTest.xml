@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-31T10:53:14" hostname="LAPTOP-ORTRF40R" time="0.412">
+  <properties/>
+  <testcase name="start" classname="TicTacToeTest" time="0.412"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 3 1
+3
+        X
+---------
+|       |
+|       |
+|     X |
+---------
+Game not finished
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 4 3
+4
+Coordinates should be from 1 to 3!
+> 3 3
+3
+  O     X
+---------
+|     O |
+|       |
+|     X |
+---------
+Game not finished
+> 3 3
+3
+This cell is occupied! Choose another one!
+> 1 4
+1
+Coordinates should be from 1 to 3!
+> 4 3
+4
+Coordinates should be from 1 to 3!
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 2 4
+2
+Coordinates should be from 1 to 3!
+> 3 1
+3
+This cell is occupied! Choose another one!
+> 1 1
+1
+  O   X X
+---------
+|     O |
+|       |
+| X   X |
+---------
+Game not finished
+> 1 2
+1
+  OO  X X
+---------
+|     O |
+| O     |
+| X   X |
+---------
+Game not finished
+> 1 3
+1
+X OO  X X
+---------
+| X   O |
+| O     |
+| X   X |
+---------
+Game not finished
+> 2 1
+2
+X OO  XOX
+---------
+| X   O |
+| O     |
+| X O X |
+---------
+Game not finished
+> 2 2
+2
+X OOX XOX
+---------
+| X   O |
+| O X   |
+| X O X |
+---------
+X wins
+?[1;31m
+Start test 2?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 3 3
+3
+  X      
+---------
+|     X |
+|       |
+|       |
+---------
+Game not finished
+> 4 2
+4
+Coordinates should be from 1 to 3!
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 3 2
+3
+  X  O   
+---------
+|     X |
+|     O |
+|       |
+---------
+Game not finished
+> 1 4
+1
+Coordinates should be from 1 to 3!
+> 2 2
+2
+  X XO   
+---------
+|     X |
+|   X O |
+|       |
+---------
+Game not finished
+> 3 3
+3
+This cell is occupied! Choose another one!
+> 1 2
+1
+  XOXO   
+---------
+|     X |
+| O X O |
+|       |
+---------
+Game not finished
+> 1 3
+1
+X XOXO   
+---------
+| X   X |
+| O X O |
+|       |
+---------
+Game not finished
+> 2 1
+2
+X XOXO O 
+---------
+| X   X |
+| O X O |
+|   O   |
+---------
+Game not finished
+> 2 2
+2
+This cell is occupied! Choose another one!
+> 2 3
+2
+XXXOXO O 
+---------
+| X X X |
+| O X O |
+|   O   |
+---------
+X wins
+?[1;31m
+Start test 3?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 4 2
+4
+Coordinates should be from 1 to 3!
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 4 4
+4
+Coordinates should be from 1 to 3!
+> 3 2
+3
+     X   
+---------
+|       |
+|     X |
+|       |
+---------
+Game not finished
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 3 1
+3
+     X  O
+---------
+|       |
+|     X |
+|     O |
+---------
+Game not finished
+> 4 3
+4
+Coordinates should be from 1 to 3!
+> 3 2
+3
+This cell is occupied! Choose another one!
+> 2 2
+2
+    XX  O
+---------
+|       |
+|   X X |
+|     O |
+---------
+Game not finished
+> 2 2
+2
+This cell is occupied! Choose another one!
+> 1 3
+1
+O   XX  O
+---------
+| O     |
+|   X X |
+|     O |
+---------
+Game not finished
+> 2 1
+2
+O   XX XO
+---------
+| O     |
+|   X X |
+|   X O |
+---------
+Game not finished
+> 2 2
+2
+This cell is occupied! Choose another one!
+> 2 3
+2
+OO  XX XO
+---------
+| O O   |
+|   X X |
+|   X O |
+---------
+Game not finished
+> 3 1
+3
+This cell is occupied! Choose another one!
+> 3 2
+3
+This cell is occupied! Choose another one!
+> 3 3
+3
+OOX XX XO
+---------
+| O O X |
+|   X X |
+|   X O |
+---------
+Game not finished
+> 1 1
+1
+OOX XXOXO
+---------
+| O O X |
+|   X X |
+| O X O |
+---------
+Game not finished
+> 1 2
+1
+OOXXXXOXO
+---------
+| O O X |
+| X X X |
+| O X O |
+---------
+X wins
+?[1;31m
+Start test 4?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 4 3
+4
+Coordinates should be from 1 to 3!
+> 4 3
+4
+Coordinates should be from 1 to 3!
+> 1 4
+1
+Coordinates should be from 1 to 3!
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 4 4
+4
+Coordinates should be from 1 to 3!
+> 2 1
+2
+       X 
+---------
+|       |
+|       |
+|   X   |
+---------
+Game not finished
+> 2 1
+2
+This cell is occupied! Choose another one!
+> 4 4
+4
+Coordinates should be from 1 to 3!
+> 4 2
+4
+Coordinates should be from 1 to 3!
+> 1 3
+1
+O      X 
+---------
+| O     |
+|       |
+|   X   |
+---------
+Game not finished
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 2 1
+2
+This cell is occupied! Choose another one!
+> 2 2
+2
+O   X  X 
+---------
+| O     |
+|   X   |
+|   X   |
+---------
+Game not finished
+> 2 3
+2
+OO  X  X 
+---------
+| O O   |
+|   X   |
+|   X   |
+---------
+Game not finished
+> 3 1
+3
+OO  X  XX
+---------
+| O O   |
+|   X   |
+|   X X |
+---------
+Game not finished
+> 3 2
+3
+OO  XO XX
+---------
+| O O   |
+|   X O |
+|   X X |
+---------
+Game not finished
+> 3 3
+3
+OOX XO XX
+---------
+| O O X |
+|   X O |
+|   X X |
+---------
+Game not finished
+> 1 1
+1
+OOX XOOXX
+---------
+| O O X |
+|   X O |
+| O X X |
+---------
+Game not finished
+> 1 2
+1
+OOXXXOOXX
+---------
+| O O X |
+| X X O |
+| O X X |
+---------
+Draw
+?[1;31m
+Start test 5?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 4 3
+4
+Coordinates should be from 1 to 3!
+> 1 1
+1
+      X  
+---------
+|       |
+|       |
+| X     |
+---------
+Game not finished
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 2 4
+2
+Coordinates should be from 1 to 3!
+> 1 4
+1
+Coordinates should be from 1 to 3!
+> 2 1
+2
+      XO 
+---------
+|       |
+|       |
+| X O   |
+---------
+Game not finished
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 1 3
+1
+X     XO 
+---------
+| X     |
+|       |
+| X O   |
+---------
+Game not finished
+> 3 2
+3
+X    OXO 
+---------
+| X     |
+|     O |
+| X O   |
+---------
+Game not finished
+> 2 2
+2
+X   XOXO 
+---------
+| X     |
+|   X O |
+| X O   |
+---------
+Game not finished
+> 2 3
+2
+XO  XOXO 
+---------
+| X O   |
+|   X O |
+| X O   |
+---------
+Game not finished
+> 3 1
+3
+XO  XOXOX
+---------
+| X O   |
+|   X O |
+| X O X |
+---------
+X wins
+?[1;31m
+Start test 6?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 4 5
+4
+Coordinates should be from 1 to 3!
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 2 4
+2
+Coordinates should be from 1 to 3!
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 2 2
+2
+    X    
+---------
+|       |
+|   X   |
+|       |
+---------
+Game not finished
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 1 1
+1
+    X O  
+---------
+|       |
+|   X   |
+| O     |
+---------
+Game not finished
+> 1 4
+1
+Coordinates should be from 1 to 3!
+> 1 2
+1
+   XX O  
+---------
+|       |
+| X X   |
+| O     |
+---------
+Game not finished
+> 1 4
+1
+Coordinates should be from 1 to 3!
+> 1 1
+1
+This cell is occupied! Choose another one!
+> 2 3
+2
+ O XX O  
+---------
+|   O   |
+| X X   |
+| O     |
+---------
+Game not finished
+> 3 1
+3
+ O XX O X
+---------
+|   O   |
+| X X   |
+| O   X |
+---------
+Game not finished
+> 3 2
+3
+ O XXOO X
+---------
+|   O   |
+| X X O |
+| O   X |
+---------
+Game not finished
+> 3 3
+3
+ OXXXOO X
+---------
+|   O X |
+| X X O |
+| O   X |
+---------
+Game not finished
+> 1 1
+1
+This cell is occupied! Choose another one!
+> 1 2
+1
+This cell is occupied! Choose another one!
+> 1 3
+1
+OOXXXOO X
+---------
+| O O X |
+| X X O |
+| O   X |
+---------
+Game not finished
+> 2 1
+2
+OOXXXOOXX
+---------
+| O O X |
+| X X O |
+| O X X |
+---------
+Draw
+?[1;31m
+Start test 7?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 3 3
+3
+  X      
+---------
+|     X |
+|       |
+|       |
+---------
+Game not finished
+> 1 2
+1
+  XO     
+---------
+|     X |
+| O     |
+|       |
+---------
+Game not finished
+> 4 4
+4
+Coordinates should be from 1 to 3!
+> 3 3
+3
+This cell is occupied! Choose another one!
+> 2 4
+2
+Coordinates should be from 1 to 3!
+> 1 2
+1
+This cell is occupied! Choose another one!
+> 2 1
+2
+  XO   X 
+---------
+|     X |
+| O     |
+|   X   |
+---------
+Game not finished
+> 2 1
+2
+This cell is occupied! Choose another one!
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 3 1
+3
+  XO   XO
+---------
+|     X |
+| O     |
+|   X O |
+---------
+Game not finished
+> 3 1
+3
+This cell is occupied! Choose another one!
+> 3 2
+3
+  XO X XO
+---------
+|     X |
+| O   X |
+|   X O |
+---------
+Game not finished
+> 3 3
+3
+This cell is occupied! Choose another one!
+> 1 1
+1
+  XO XOXO
+---------
+|     X |
+| O   X |
+| O X O |
+---------
+Game not finished
+> 1 2
+1
+This cell is occupied! Choose another one!
+> 1 3
+1
+X XO XOXO
+---------
+| X   X |
+| O   X |
+| O X O |
+---------
+Game not finished
+> 2 1
+2
+This cell is occupied! Choose another one!
+> 2 2
+2
+X XOOXOXO
+---------
+| X   X |
+| O O X |
+| O X O |
+---------
+Game not finished
+> 2 3
+2
+XXXOOXOXO
+---------
+| X X X |
+| O O X |
+| O X O |
+---------
+X wins
+?[1;31m
+Start test 8?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 4 7
+4
+Coordinates should be from 1 to 3!
+> 2 2
+2
+    X    
+---------
+|       |
+|   X   |
+|       |
+---------
+Game not finished
+> 1 3
+1
+O   X    
+---------
+| O     |
+|   X   |
+|       |
+---------
+Game not finished
+> 4 4
+4
+Coordinates should be from 1 to 3!
+> 1 3
+1
+This cell is occupied! Choose another one!
+> 2 4
+2
+Coordinates should be from 1 to 3!
+> 1 3
+1
+This cell is occupied! Choose another one!
+> 4 1
+4
+Coordinates should be from 1 to 3!
+> 3 4
+3
+Coordinates should be from 1 to 3!
+> 2 2
+2
+This cell is occupied! Choose another one!
+> 4 2
+4
+Coordinates should be from 1 to 3!
+> 3 2
+3
+O   XX   
+---------
+| O     |
+|   X X |
+|       |
+---------
+Game not finished
+> 3 3
+3
+O O XX   
+---------
+| O   O |
+|   X X |
+|       |
+---------
+Game not finished
+> 1 1
+1
+O O XXX  
+---------
+| O   O |
+|   X X |
+| X     |
+---------
+Game not finished
+> 1 2
+1
+O OOXXX  
+---------
+| O   O |
+| O X X |
+| X     |
+---------
+Game not finished
+> 1 3
+1
+This cell is occupied! Choose another one!
+> 2 1
+2
+O OOXXXX 
+---------
+| O   O |
+| O X X |
+| X X   |
+---------
+Game not finished
+> 2 2
+2
+This cell is occupied! Choose another one!
+> 2 3
+2
+OOOOXXXX 
+---------
+| O O O |
+| O X X |
+| X X   |
+---------
+O wins
+?[1;31m
+Start test 9?[0m
+---------
+|       |
+|       |
+|       |
+---------
+> 3 2
+3
+     X   
+---------
+|       |
+|     X |
+|       |
+---------
+Game not finished
+> 2 2
+2
+    OX   
+---------
+|       |
+|   O X |
+|       |
+---------
+Game not finished
+> 2 3
+2
+ X  OX   
+---------
+|   X   |
+|   O X |
+|       |
+---------
+Game not finished
+> 4 4
+4
+Coordinates should be from 1 to 3!
+> 2 2
+2
+This cell is occupied! Choose another one!
+> 1 1
+1
+ X  OXO  
+---------
+|   X   |
+|   O X |
+| O     |
+---------
+Game not finished
+> 1 1
+1
+This cell is occupied! Choose another one!
+> 1 2
+1
+ X XOXO  
+---------
+|   X   |
+| X O X |
+| O     |
+---------
+Game not finished
+> 4 3
+4
+Coordinates should be from 1 to 3!
+> 4 2
+4
+Coordinates should be from 1 to 3!
+> 3 3
+3
+ XOXOXO  
+---------
+|   X O |
+| X O X |
+| O     |
+---------
+O wins
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
